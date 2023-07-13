@@ -18,7 +18,7 @@ import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
-@Path("clientes")
+@Path("inmuebles")
 public class GInmuebleservice {
 	@Inject
 	private InmuebleDao daoInmueble;
