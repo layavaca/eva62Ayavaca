@@ -46,6 +46,14 @@ public class DemoDatos {
 		i2.setPeso("25kg");
 		daoInmueble.insert(i2);
 		
+		
+		//Actualizar un registro
+		Inmueble ia = new Inmueble();
+		ia.setSerie("0123456789");
+		ia.setDescripcion("armario");
+		daoInmueble.update(ia);
+				
+		
 		System.out.print("todas la personas mundo -----");
 		
 		List<Inmueble> inmuebles = daoInmueble.getAll();
